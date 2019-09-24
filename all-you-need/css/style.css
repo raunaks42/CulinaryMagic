@@ -1,0 +1,89 @@
+.ayn-tiles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+.discount {
+	background: #99999977;
+}
+.items {
+	padding: 10px 20px;
+	margin: 10px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	border: 2px solid rgb(227, 30, 36);
+	border-radius: 5px;
+	margin: 10px;
+}
+.bb.item {
+	border-color: #84c225;
+}
+.item > .img {
+	width: 300px;
+	margin: 0;
+}
+.item > .img > img {
+	width: 300px;
+	margin: 0;
+	border-radius: 5px;
+}
+.item > .name {
+	width: 300px;
+	padding: 10px 0;
+	background: rgb(227, 30, 36);
+	color: #eee;
+}
+.item > .price {
+	padding: 10px 0;
+	color: rgb(227, 30, 36);
+	background: #fff;
+	width: 300px;
+	border-radius: 5px;
+}
+/* rgb(227, 30, 36) */
+.bb.item > .name {
+	background: #84c225;
+}
+.bb.item > .price {
+	padding: 10px 0;
+	color: #84c225;
+	background: #fff;
+	width: 300px;
+	border-radius: 5px;
+}
+.bb-logo, .mdh-logo {
+	padding: 5px;
+	width: 200px;
+	margin: 5px auto;
+	border-radius: 5px;
+}
+.wc-logo {
+	background: rgb(227, 30, 36);
+	padding: 5px;
+	width: 200px;
+	margin: 5px auto;
+	border-radius: 5px;
+}
+.wc-logo > img {
+	width: 200px;
+}
+p.discount {
+	padding: 10px;
+	font-size: 32px;
+	text-align: center;
+	color: #224;
+}
