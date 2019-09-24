@@ -1,0 +1,144 @@
+.logout {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.logout>a {
+    margin: 5px;
+    padding: 10px;
+    color: #eee;
+    font-weight: 600;
+    background: #224;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+h3 {
+    padding: 10px;
+    margin: 5px 0 0 0 ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Montserrat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+form>* {
+    width: 33%;
+    font-family: Lato;
+    padding: 10px;
+    margin: 10px;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+    border: 1px solid #224;
+}
+
+input[type=submit] {
+    background: #224;
+    border-radius: 5px;
+    border: 0;
+    color: #eee;
+
+}
+
+.posts {
+    padding: 20px;
+    width: 50%;
+}
+
+.post {
+    padding: 20px 50px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    background: #486824;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post>div,
+.post>a>div {
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+}
+
+.post>div>div>span,
+.post>a>div>div>span {
+    color: #888;
+}
+
+.post-name {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 300;
+    font-family: Oswald;
+}
+
+.post-body {
+    border-radius: 5px;
+    background: #777;
+    color: #fff;
+    margin: 20px 10px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 50px 150px;
+    width: 55%;
+    font-family: Raleway;
+}
+
+.rform>* {
+    width: 100%;
+}
+
+.sorts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.sorts>a {
+    background: #f2c057;
+    color: #111;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    margin: 5px;
+    border-radius: 5px
+}
+
+p {
+    padding: 7.5px 0;
+}
+
+ul {
+    padding: 10px 0 0 10px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+h1.bbg, h3.bbg {
+    background: #999999aa;
+    border-radius: 5px
+}

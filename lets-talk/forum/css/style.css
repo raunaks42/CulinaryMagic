@@ -1,0 +1,82 @@
+.background-image {
+	background: url('/images/bg1.jpg');
+	background-color: #f9f9f9;
+	background-size: 100vw;
+	display: block;
+	filter: blur(2px);
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	width: 100%;
+	z-index: -9999;
+}
+
+.ayn-tiles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 10px;
+}
+
+.login-wrapper {
+	border: 2px solid gold;
+	padding: 50px 25px;
+	border-radius: 5px;
+	width: 33%;
+	background: #999999aa;
+}
+
+.login-wrapper > h2 {
+	text-align: center;
+	padding: 10px;
+	font-family: Lato;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form > * {
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+	border-radius: 5px;
+	border: 1px solid #222222;
+}
+
+input[type="submit"] {
+	width: 33%;
+	border-radius: 10%/50%;
+	background: #222222;
+	color: #ddd;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+h4 {
+	text-align: center;
+}
+
+h6 {
+	font-size: 11px;
+	text-align: center;
+}
+
+.wrong-pw {
+	text-align: center;
+	color: #d32215;
+	font-weight: 600;
+}
