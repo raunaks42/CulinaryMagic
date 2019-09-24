@@ -1,0 +1,38 @@
+.tips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tip {
+    background: #f2c057;
+    padding: 40px ;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    border-radius: 5px;
+    width: 600px;
+    font-size: 18px;
+    margin: 10px;
+    color: #fff;
+    font-family: 'Raleway';
+    transition: 0.5s all ease-in-out;
+}
+.tip:hover {
+	box-shadow: 0 0 0 0 rgba(222, 222, 222, 0.5), 0 6px 20px 0 rgba(222, 222, 222, 0.5);
+}
+.tip-n {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 800;
+    width: 100px;
+    /* flex: 1; */
+    color: #486824;
+}
+.tip-c {
+    /* background: #11111111; */
+    padding: 20px 10px;
+}
+p {
+    padding: 5px 0;
+}
