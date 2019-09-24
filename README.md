@@ -8,4 +8,4 @@ Let's Talk: A Blog and Forum <br/>
 More about the site in Report.pdf. <br/>
 Last Modified: Nov 2018<br/> <br/>
 Content by Amrita Sengupta.</br>
-Contributors: Raunak Sengupta, Sarthak Gupta, Mehul Mathur
+Contributors: Raunak Sengupta, Sarthak Gupta, Mehul Thakral
